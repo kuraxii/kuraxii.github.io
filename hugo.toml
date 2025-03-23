@@ -36,13 +36,13 @@ homeCollection = 'posts'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = '2006-01-2'
 
 # Breadcrumbs
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "Home"
+home = "~"
 
 # Social icons
 [[params.social]]
@@ -55,7 +55,7 @@ url = "https://medium.com/@user"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/user"
+url = "https://github.com/kuraxii"
 
 # Main menu pages
 [[params.menu]]
@@ -63,8 +63,25 @@ name = "home"
 url = "/"
 
 [[params.menu]]
+name = "daily"
+url = "/daily"
+
+[[params.menu]]
+name = "rust"
+url = "/rust"
+
+[[params.menu]]
+name = "vscode"
+url = "/vscode"
+
+[[params.menu]]
+name = "linux configuration"
+url = "/linux_configuration"
+
+[[params.menu]]
 name = "posts"
 url = "/posts"
+listSummaries = true
 
 [[params.menu]]
 name = "about"
@@ -73,7 +90,7 @@ url = "/about"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'algol'
+style = 'github'
 
 # Giscus comments
 [params.giscus]
