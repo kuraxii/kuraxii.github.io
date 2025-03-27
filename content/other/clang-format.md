@@ -11,7 +11,9 @@ tags: ["clang-format", "config"]
 showTags: true
 ---
 
-### 个人常用的clang-format配置
+### My person clang-format configuration
+
+base on google style
 
 ```yaml
 ---
